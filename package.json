@@ -1,0 +1,20 @@
+{
+  "name": "hotpot-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "init": "rimraf dist && mkdir dist && cp assets/* dist -r",
+    "start": "npm run init && node scripts/watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "esbuild": "^0.14.7",
+    "live-server": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
